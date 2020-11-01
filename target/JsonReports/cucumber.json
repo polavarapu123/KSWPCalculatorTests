@@ -3,7 +3,7 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2020-11-01T06:33:43.557Z",
+        "start_timestamp": "2020-11-01T10:00:08.828Z",
         "line": 10,
         "name": "validate that clicking Information icon for the Current Age field displayes expected message",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14366000000,
+              "duration": 17026000000,
               "status": "passed"
             },
             "line": 11,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 552000000,
+              "duration": 600000000,
               "status": "passed"
             },
             "line": 12,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 109000000,
+              "duration": 255000000,
               "status": "passed"
             },
             "line": 13,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 122000000,
+              "duration": 210000000,
               "status": "passed"
             },
             "line": 14,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 48000000,
+              "duration": 49000000,
               "status": "passed"
             },
             "line": 15,
@@ -73,7 +73,7 @@
           },
           {
             "result": {
-              "duration": 123000000,
+              "duration": 157000000,
               "status": "passed"
             },
             "line": 16,
@@ -85,7 +85,7 @@
           },
           {
             "result": {
-              "duration": 38000000,
+              "duration": 49000000,
               "status": "passed"
             },
             "line": 17,
@@ -97,7 +97,7 @@
           },
           {
             "result": {
-              "duration": 182000000,
+              "duration": 218000000,
               "status": "passed"
             },
             "line": 18,
@@ -109,7 +109,7 @@
           },
           {
             "result": {
-              "duration": 96000000,
+              "duration": 62000000,
               "status": "passed"
             },
             "line": 19,
@@ -121,7 +121,7 @@
           },
           {
             "result": {
-              "duration": 167000000,
+              "duration": 175000000,
               "status": "passed"
             },
             "line": 20,
@@ -133,7 +133,7 @@
           },
           {
             "result": {
-              "duration": 98000000,
+              "duration": 87000000,
               "status": "passed"
             },
             "line": 21,
@@ -145,7 +145,7 @@
           },
           {
             "result": {
-              "duration": 626000000,
+              "duration": 171000000,
               "status": "passed"
             },
             "line": 22,
@@ -157,7 +157,7 @@
           },
           {
             "result": {
-              "duration": 1835000000,
+              "duration": 367000000,
               "status": "passed"
             },
             "line": 23,
@@ -186,7 +186,7 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2020-11-01T06:34:02.132Z",
+        "start_timestamp": "2020-11-01T10:00:28.897Z",
         "line": 10,
         "name": "Employed users Projected Balance at age 30",
         "description": "",
@@ -196,7 +196,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11518000000,
+              "duration": 10417000000,
               "status": "passed"
             },
             "line": 11,
@@ -208,7 +208,7 @@
           },
           {
             "result": {
-              "duration": 111000000,
+              "duration": 144000000,
               "status": "passed"
             },
             "line": 12,
@@ -220,7 +220,7 @@
           },
           {
             "result": {
-              "duration": 748000000,
+              "duration": 972000000,
               "status": "passed"
             },
             "line": 13,
@@ -232,7 +232,7 @@
           },
           {
             "result": {
-              "duration": 304000000,
+              "duration": 265000000,
               "status": "passed"
             },
             "line": 14,
@@ -244,7 +244,7 @@
           },
           {
             "result": {
-              "duration": 155000000,
+              "duration": 228000000,
               "status": "passed"
             },
             "line": 15,
@@ -256,7 +256,7 @@
           },
           {
             "result": {
-              "duration": 208000000,
+              "duration": 272000000,
               "status": "passed"
             },
             "line": 16,
@@ -268,7 +268,7 @@
           },
           {
             "result": {
-              "duration": 279000000,
+              "duration": 233000000,
               "status": "passed"
             },
             "line": 17,
@@ -280,7 +280,7 @@
           },
           {
             "result": {
-              "duration": 701000000,
+              "duration": 649000000,
               "status": "passed"
             },
             "line": 18,
@@ -309,7 +309,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-11-01T06:34:16.265Z",
+        "start_timestamp": "2020-11-01T10:00:42.109Z",
         "line": 8,
         "name": "kiwiSaver Balance for Non employed users",
         "description": "",
@@ -319,7 +319,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10934000000,
+              "duration": 10268000000,
               "status": "passed"
             },
             "line": 9,
@@ -331,7 +331,7 @@
           },
           {
             "result": {
-              "duration": 146000000,
+              "duration": 104000000,
               "status": "passed"
             },
             "line": 10,
@@ -343,7 +343,7 @@
           },
           {
             "result": {
-              "duration": 933000000,
+              "duration": 1354000000,
               "status": "passed"
             },
             "line": 11,
@@ -355,7 +355,7 @@
           },
           {
             "result": {
-              "duration": 216000000,
+              "duration": 339000000,
               "status": "passed"
             },
             "line": 12,
@@ -367,7 +367,7 @@
           },
           {
             "result": {
-              "duration": 3891000000,
+              "duration": 3894000000,
               "status": "passed"
             },
             "line": 13,
@@ -379,7 +379,7 @@
           },
           {
             "result": {
-              "duration": 426000000,
+              "duration": 367000000,
               "status": "passed"
             },
             "line": 14,
@@ -391,7 +391,7 @@
           },
           {
             "result": {
-              "duration": 181000000,
+              "duration": 180000000,
               "status": "passed"
             },
             "line": 15,
@@ -403,7 +403,7 @@
           },
           {
             "result": {
-              "duration": 262000000,
+              "duration": 146000000,
               "status": "passed"
             },
             "line": 16,
@@ -415,7 +415,7 @@
           },
           {
             "result": {
-              "duration": 587000000,
+              "duration": 575000000,
               "status": "passed"
             },
             "line": 17,
@@ -444,7 +444,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-11-01T06:34:33.865Z",
+        "start_timestamp": "2020-11-01T10:00:59.363Z",
         "line": 8,
         "name": "kiwiSaver Balance for Self employed users",
         "description": "",
@@ -454,7 +454,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10007000000,
+              "duration": 12536000000,
               "status": "passed"
             },
             "line": 9,
@@ -466,7 +466,7 @@
           },
           {
             "result": {
-              "duration": 100000000,
+              "duration": 199000000,
               "status": "passed"
             },
             "line": 10,
@@ -478,7 +478,7 @@
           },
           {
             "result": {
-              "duration": 1450000000,
+              "duration": 985000000,
               "status": "passed"
             },
             "line": 11,
@@ -490,7 +490,7 @@
           },
           {
             "result": {
-              "duration": 199000000,
+              "duration": 270000000,
               "status": "passed"
             },
             "line": 12,
@@ -502,7 +502,7 @@
           },
           {
             "result": {
-              "duration": 3892000000,
+              "duration": 3960000000,
               "status": "passed"
             },
             "line": 13,
@@ -514,7 +514,7 @@
           },
           {
             "result": {
-              "duration": 144000000,
+              "duration": 199000000,
               "status": "passed"
             },
             "line": 14,
@@ -526,7 +526,7 @@
           },
           {
             "result": {
-              "duration": 162000000,
+              "duration": 199000000,
               "status": "passed"
             },
             "line": 15,
@@ -538,7 +538,7 @@
           },
           {
             "result": {
-              "duration": 142000000,
+              "duration": 200000000,
               "status": "passed"
             },
             "line": 16,
@@ -550,7 +550,7 @@
           },
           {
             "result": {
-              "duration": 688000000,
+              "duration": 633000000,
               "status": "passed"
             },
             "line": 17,

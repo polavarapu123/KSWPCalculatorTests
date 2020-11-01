@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="67.967">
-<testcase classname="Information Icons present for all fields in the KiwiSaver Retirement Calculator" name="validate that clicking Information icon for the Current Age field displayes expected message" time="18.488">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="71.774">
+<testcase classname="Information Icons present for all fields in the KiwiSaver Retirement Calculator" name="validate that clicking Information icon for the Current Age field displayes expected message" time="20.029">
 <system-out><![CDATA[Given user is on the Kiwisaver Retirement Calculator........................passed
 When user clicks on Information icon besides Current Age field..............passed
 Then expected help message is displayed.....................................passed
@@ -16,7 +16,7 @@ When user clicks on Information icon besides savings goal at retirement field.pa
 Then expected savings goal at retirement help text is displayed.............passed
 ]]></system-out>
 </testcase>
-<testcase classname="Calculate KiwiSaver projected balance" name="Employed users Projected Balance at age 30" time="14.05">
+<testcase classname="Calculate KiwiSaver projected balance" name="Employed users Projected Balance at age 30" time="13.2">
 <system-out><![CDATA[Given user is on the Kiwisaver Retirement Calculator page...................passed
 And current age of the user is 30 years.....................................passed
 And Employment status of the user is Employed...............................passed
@@ -27,7 +27,7 @@ When user clicks on view your Kiwisaver Retirement Projections..............pass
 Then user can see estimated Kiwisaver balance details.......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Calculate KiwiSaver projected balance" name="kiwiSaver Balance for Non employed users" time="17.592">
+<testcase classname="Calculate KiwiSaver projected balance" name="kiwiSaver Balance for Non employed users" time="17.246">
 <system-out><![CDATA[Given user has navigated to WP KiwiSaver calculator page....................passed
 And current age of user is 55 years.........................................passed
 And Employment status of user is Non-employed...............................passed
@@ -39,7 +39,7 @@ When Non-employed user clicks on view Kiwisaver Retirement Projections......pass
 Then Non-employed user can see projected Kiwisaver balance details..........passed
 ]]></system-out>
 </testcase>
-<testcase classname="Calculate KiwiSaver projected balance" name="kiwiSaver Balance for Self employed users" time="16.807">
+<testcase classname="Calculate KiwiSaver projected balance" name="kiwiSaver Balance for Self employed users" time="19.198">
 <system-out><![CDATA[Given user has navigated to KiwiSaver calculator page.......................passed
 And current age of the user is 45 years.....................................passed
 And Employment status of the user is Self-employed..........................passed
