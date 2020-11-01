@@ -1,0 +1,6 @@
+steps\KiwisaverBalance.class
+pages\KiwiSaverCalculatorPage.class
+steps\TestRunner.class
+steps\NonEmployedKiwiSaver.class
+steps\KSCalculatorInfoIcons.class
+steps\SelfEmployedKiwiSaver.class

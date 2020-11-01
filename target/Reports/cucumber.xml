@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="67.967">
+<testcase classname="Information Icons present for all fields in the KiwiSaver Retirement Calculator" name="validate that clicking Information icon for the Current Age field displayes expected message" time="18.488">
+<system-out><![CDATA[Given user is on the Kiwisaver Retirement Calculator........................passed
+When user clicks on Information icon besides Current Age field..............passed
+Then expected help message is displayed.....................................passed
+When user clicks on Information icon besides Employment status..............passed
+Then expeceted employment status help text is displayed.....................passed
+When user clicks on Information icon besides Current KiwiSavebalance field..passed
+Then expecetd kiwisaver balance help text is dispalyed......................passed
+When user clicks on Information icon besides voluntary contributions........passed
+Then expected volunatry contribution help text is displayed.................passed
+When user clicks on Information icon besides RiskProfile field..............passed
+Then expected riskProfile help information is displayed.....................passed
+When user clicks on Information icon besides savings goal at retirement field.passed
+Then expected savings goal at retirement help text is displayed.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Calculate KiwiSaver projected balance" name="Employed users Projected Balance at age 30" time="14.05">
+<system-out><![CDATA[Given user is on the Kiwisaver Retirement Calculator page...................passed
+And current age of the user is 30 years.....................................passed
+And Employment status of the user is Employed...............................passed
+And user types salary of 82000..............................................passed
+And selects 4 percentage Kiwisaver memeber contribution.....................passed
+And chooses a Defensive risk profile........................................passed
+When user clicks on view your Kiwisaver Retirement Projections..............passed
+Then user can see estimated Kiwisaver balance details.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Calculate KiwiSaver projected balance" name="kiwiSaver Balance for Non employed users" time="17.592">
+<system-out><![CDATA[Given user has navigated to WP KiwiSaver calculator page....................passed
+And current age of user is 55 years.........................................passed
+And Employment status of user is Non-employed...............................passed
+And Non-employed current KiwiSaver balance is $140000.......................passed
+And Non-employedvoluntary contributes $10 Annually..........................passed
+And Non-employed chooses a balanced risk profile............................passed
+And Non-employed saving goals requirement of $200000........................passed
+When Non-employed user clicks on view Kiwisaver Retirement Projections......passed
+Then Non-employed user can see projected Kiwisaver balance details..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Calculate KiwiSaver projected balance" name="kiwiSaver Balance for Self employed users" time="16.807">
+<system-out><![CDATA[Given user has navigated to KiwiSaver calculator page.......................passed
+And current age of the user is 45 years.....................................passed
+And Employment status of the user is Self-employed..........................passed
+And current KiwiSaver balance is $100000....................................passed
+And voluntary contributes $90 fortnightly...................................passed
+And chooses a Conservative risk profile.....................................passed
+And saving goals requirement of $290000.....................................passed
+When user clicks on view Kiwisaver Retirement Projections...................passed
+Then user can see projected Kiwisaver balance details.......................passed
+]]></system-out>
+</testcase>
+</testsuite>
