@@ -20,10 +20,10 @@ public class SelfEmployedKiwiSaver {
 	@Given("user has navigated to KiwiSaver calculator page")
 	public void user_has_navigated_to_KiwiSaver_calculator_page() {
 
-		String projectPath=System.getProperty("user.dir");
+		String projectPath = System.getProperty("user.dir");
 		System.out.println(projectPath);
-		System.setProperty("webdriver.chrome.driver",projectPath+"/src/test/resources/drivers/chromedriver.exe");
-		driver=new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", projectPath + "/src/test/resources/drivers/chromedriver.exe");
+		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 
@@ -35,13 +35,13 @@ public class SelfEmployedKiwiSaver {
 		driver.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
 
 	}
-	
+
 	@And("current age of the user is 45 years")
 	public void current_age_of_the_user_is_years() {
-		KiwiSaverCalculatorPage= new KiwiSaverCalculatorPage(driver);
+		KiwiSaverCalculatorPage = new KiwiSaverCalculatorPage(driver);
 		KiwiSaverCalculatorPage.TypeCurrentAge("45");
 	}
-	
+
 	@And("Employment status of the user is Self-employed")
 	public void employment_status_of_the_user_is_Self_employed() {
 		KiwiSaverCalculatorPage.clickEmploymentStatus();
@@ -57,7 +57,6 @@ public class SelfEmployedKiwiSaver {
 	public void voluntary_contributes_$90_fortnightly() throws InterruptedException {
 		KiwiSaverCalculatorPage.entervoluntarycontribution("90");
 		Thread.sleep(3000);
-		//KiwiSaverCalculatorPage.chooseVoluntaryContributionFrequency("Fortnightly");
 		KiwiSaverCalculatorPage.selectFrequencyDD("Fortnightly");
 	}
 
@@ -70,6 +69,7 @@ public class SelfEmployedKiwiSaver {
 	public void saving_goals_requirement_of_$290000() {
 		KiwiSaverCalculatorPage.TypeSavingsGoal("290000");
 	}
+
 	@When("user clicks on view Kiwisaver Retirement Projections")
 	public void user_clicks_on_view_Kiwisaver_Retirement_Projections() {
 		KiwiSaverCalculatorPage.ClickOnKiwiSaverProjectionButton();
@@ -82,6 +82,5 @@ public class SelfEmployedKiwiSaver {
 		KiwiSaverCalculatorPage.viewKiwiSaverBalanceSummary();
 		driver.close();
 	}
-	
-}
 
+}
